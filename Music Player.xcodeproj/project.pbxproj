@@ -20,6 +20,7 @@
 		0420DEAC292928A70049CEF0 /* slava.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0420DEA7292928A70049CEF0 /* slava.mp3 */; };
 		0420DEAD292928A70049CEF0 /* katrin lambo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0420DEA8292928A70049CEF0 /* katrin lambo.mp3 */; };
 		0420DEAE292928A70049CEF0 /* tima krossi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0420DEA9292928A70049CEF0 /* tima krossi.mp3 */; };
+		0420DEB029293DC40049CEF0 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420DEAF29293DC40049CEF0 /* ViewControllerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		0420DEA7292928A70049CEF0 /* slava.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slava.mp3; sourceTree = "<group>"; };
 		0420DEA8292928A70049CEF0 /* katrin lambo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "katrin lambo.mp3"; sourceTree = "<group>"; };
 		0420DEA9292928A70049CEF0 /* tima krossi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tima krossi.mp3"; sourceTree = "<group>"; };
+		0420DEAF29293DC40049CEF0 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				0420DE882927C36E0049CEF0 /* AppDelegate.swift */,
 				0420DE8A2927C36E0049CEF0 /* SceneDelegate.swift */,
 				0420DE8C2927C36E0049CEF0 /* ViewController.swift */,
+				0420DEAF29293DC40049CEF0 /* ViewControllerTwo.swift */,
 				0420DE8E2927C36E0049CEF0 /* Main.storyboard */,
 				0420DE912927C3700049CEF0 /* Assets.xcassets */,
 				0420DEA22927CEC90049CEF0 /* miyagi-cover.jpeg */,
@@ -177,6 +180,7 @@
 				0420DE8D2927C36E0049CEF0 /* ViewController.swift in Sources */,
 				0420DE892927C36E0049CEF0 /* AppDelegate.swift in Sources */,
 				0420DE8B2927C36E0049CEF0 /* SceneDelegate.swift in Sources */,
+				0420DEB029293DC40049CEF0 /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

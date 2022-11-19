@@ -10,6 +10,8 @@ import AVFoundation
 
 var songs: [String] = []
 var player = AVAudioPlayer()
+var thisSong = 0
+var audioStuffed = false
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
@@ -32,6 +34,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
             try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
             player.play()
+            thisSong = indexPath.row
+            audioStuffed = true
+            
+            
+            
         }
         catch
         {
