@@ -29,6 +29,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     // выбор строки
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
         do
         {
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
@@ -36,8 +38,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             player.play()
             thisSong = indexPath.row
             audioStuffed = true
+           
             
             
+            
+          
             
         }
         catch

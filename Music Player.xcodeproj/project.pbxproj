@@ -13,8 +13,6 @@
 		0420DE902927C36E0049CEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0420DE8E2927C36E0049CEF0 /* Main.storyboard */; };
 		0420DE922927C3700049CEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0420DE912927C3700049CEF0 /* Assets.xcassets */; };
 		0420DE952927C3700049CEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0420DE932927C3700049CEF0 /* LaunchScreen.storyboard */; };
-		0420DEA12927CEB30049CEF0 /* tima-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0420DEA02927CEB30049CEF0 /* tima-cover.jpeg */; };
-		0420DEA32927CEC90049CEF0 /* miyagi-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0420DEA22927CEC90049CEF0 /* miyagi-cover.jpeg */; };
 		0420DEAA292928A70049CEF0 /* miyagi the fair.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0420DEA5292928A70049CEF0 /* miyagi the fair.mp3 */; };
 		0420DEAB292928A70049CEF0 /* gayazov devishnik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0420DEA6292928A70049CEF0 /* gayazov devishnik.mp3 */; };
 		0420DEAC292928A70049CEF0 /* slava.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0420DEA7292928A70049CEF0 /* slava.mp3 */; };
@@ -32,8 +30,6 @@
 		0420DE912927C3700049CEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0420DE942927C3700049CEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0420DE962927C3700049CEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0420DEA02927CEB30049CEF0 /* tima-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tima-cover.jpeg"; path = "../../../../../Downloads/tima-cover.jpeg"; sourceTree = "<group>"; };
-		0420DEA22927CEC90049CEF0 /* miyagi-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "miyagi-cover.jpeg"; path = "../../../../../Downloads/miyagi-cover.jpeg"; sourceTree = "<group>"; };
 		0420DEA5292928A70049CEF0 /* miyagi the fair.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "miyagi the fair.mp3"; sourceTree = "<group>"; };
 		0420DEA6292928A70049CEF0 /* gayazov devishnik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gayazov devishnik.mp3"; sourceTree = "<group>"; };
 		0420DEA7292928A70049CEF0 /* slava.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slava.mp3; sourceTree = "<group>"; };
@@ -78,8 +74,6 @@
 				0420DEAF29293DC40049CEF0 /* ViewControllerTwo.swift */,
 				0420DE8E2927C36E0049CEF0 /* Main.storyboard */,
 				0420DE912927C3700049CEF0 /* Assets.xcassets */,
-				0420DEA22927CEC90049CEF0 /* miyagi-cover.jpeg */,
-				0420DEA02927CEB30049CEF0 /* tima-cover.jpeg */,
 				0420DEA4292928A70049CEF0 /* songs */,
 				0420DE932927C3700049CEF0 /* LaunchScreen.storyboard */,
 				0420DE962927C3700049CEF0 /* Info.plist */,
@@ -161,11 +155,9 @@
 				0420DEAE292928A70049CEF0 /* tima krossi.mp3 in Resources */,
 				0420DE922927C3700049CEF0 /* Assets.xcassets in Resources */,
 				0420DEAB292928A70049CEF0 /* gayazov devishnik.mp3 in Resources */,
-				0420DEA32927CEC90049CEF0 /* miyagi-cover.jpeg in Resources */,
 				0420DE902927C36E0049CEF0 /* Main.storyboard in Resources */,
 				0420DEAA292928A70049CEF0 /* miyagi the fair.mp3 in Resources */,
 				0420DEAC292928A70049CEF0 /* slava.mp3 in Resources */,
-				0420DEA12927CEB30049CEF0 /* tima-cover.jpeg in Resources */,
 				0420DEAD292928A70049CEF0 /* katrin lambo.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

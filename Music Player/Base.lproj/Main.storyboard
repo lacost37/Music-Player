@@ -68,7 +68,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j2o-LD-tHO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j2o-LD-tHO">
                                 <rect key="frame" x="20" y="122" width="374" height="374"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -99,22 +99,40 @@
                                     <action selector="nextSong:" destination="F7p-sn-t7b" eventType="touchUpInside" id="LOU-Y7-uda"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Dsc-qd-oe9">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-0.5" minValue="-0.5" maxValue="2.5" translatesAutoresizingMaskIntoConstraints="NO" id="Dsc-qd-oe9">
                                 <rect key="frame" x="20" y="618" width="376" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="sliderAction:" destination="F7p-sn-t7b" eventType="valueChanged" id="Uv9-AI-Y8L"/>
                                 </connections>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUt-9Q-odK">
+                                <rect key="frame" x="20" y="589" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7C-7d-wPC">
+                                <rect key="frame" x="315" y="590" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="prm-JU-DMS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" id="UCK-Zu-hzS"/>
+                    <navigationItem key="navigationItem" id="ecV-es-tNf"/>
                     <connections>
+                        <outlet property="labelTimeFinish" destination="L7C-7d-wPC" id="mfD-OO-NpZ"/>
+                        <outlet property="labelTimeStart" destination="XUt-9Q-odK" id="nPk-vx-jF9"/>
                         <outlet property="myImageViewCover" destination="j2o-LD-tHO" id="Egq-vp-91Z"/>
                         <outlet property="nameLabel" destination="I7d-Oi-D7m" id="hbn-Se-jkC"/>
                         <outlet property="playButton" destination="daz-k8-Bn5" id="wLN-AI-0cQ"/>
+                        <outlet property="sliderDuration" destination="Dsc-qd-oe9" id="0S2-ya-dT2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WpS-JD-hgD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -127,12 +145,13 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="22Y-BM-Qel" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="foP-rJ-V3n">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ful-cy-tOL"/>
-                        <segue destination="F7p-sn-t7b" kind="relationship" relationship="viewControllers" id="FS8-Qz-chK"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="kTb-hw-DdG"/>
+                        <segue destination="F7p-sn-t7b" kind="relationship" relationship="viewControllers" id="DR1-QN-GVr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="seo-zd-Ssl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
